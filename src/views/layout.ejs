@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title><%= title ? title + ' | ' : '' %><%= process.env.APP_NAME %></title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link href="/css/style.css" rel="stylesheet" />
+</head>
+<body>
+  <%- include('partials/navbar') %>
+  <main class="container"><%- body %></main>
+  <script src="/js/app.js" defer></script>
+</body>
+</html>

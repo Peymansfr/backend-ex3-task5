@@ -1,0 +1,13 @@
+:root { --brand:#6c5ce7; --ink:#222; --bg:#fff; --muted:#f6f7fb; }
+*{box-sizing:border-box} body{margin:0;font:16px/1.6 system-ui,Segoe UI,Roboto;color:var(--ink);background:var(--muted)}
+.container{max-width:960px;margin:auto;padding:24px}
+.nav{display:flex;gap:16px;align-items:center;background:var(--bg);padding:12px 24px;position:sticky;top:0;border-bottom:1px solid #eee}
+.nav .brand{margin-right:auto;font-weight:700;color:var(--brand);text-decoration:none}
+.nav a{color:var(--ink);text-decoration:none}
+.hero{padding:72px 0;text-align:center}
+.btn{display:inline-block;padding:10px 16px;border-radius:8px;background:var(--brand);color:#fff;text-decoration:none}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;padding:0;list-style:none}
+.card{background:#fff;border:1px solid #eee;border-radius:12px;padding:16px}
+.form{display:grid;gap:12px;max-width:560px}
+.form input,.form textarea{width:100%;padding:10px;border:1px solid #ddd;border-radius:8px}
+.notice{background:#e6ffed;border:1px solid #b4f5c6;padding:10px;border-radius:8px}
